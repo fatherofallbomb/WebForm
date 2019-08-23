@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+h1 {
+  font-family: Nunito;
+  font-weight: 500;
+}
+
+/* Styling Web Forms Lecture */
+
+#container {
+  width: 600px;
+  margin: auto;
+}
+
+form {
+  margin-top: 40px;
+}
+
+fieldset {
+  padding: 40px;
+  border: solid 1px #1fab89;
+  border-radius: 25px;
+  background-image: url('images/blue_background.jpg');
+}
+
+fieldset legend {
+  background: white;
+  padding: 10px;
+  border: solid 1px #1fab89;
+  border-radius: 10px;
+  font-family: Nunito;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin: 0 0 20px;
+  border: solid 1px #1fab89;
+  display: block;
+  width: 50%;
+  font-size: 14px;
+  color: #537d91;
+  font-family: monaco, monospace;
+  border-top: none;
+  /*text-transform: uppercase;
+  border-radius: 10px; */
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 400;
+  background-image: url('images/red_background.jpg');
+  display: block;
+  width: 50.3%;
+  padding: 2%;
+  color: white;
+  border-top: none;
+
+}
+
+/* Submit Button & cursor */
+
+input[type="submit"] {
+  background: none;
+  background-image: url("images/button_background.jpg");
+  height: 40px;
+  border: solid 1px #777;
+  padding: 0 40px;
+  color: white;
+}
+
+input[type="sumbit"]:hover {
+  cursor: pointer;
+  border-color: #444;
+}
+
+input[type="sumbit"]:active {
+  border-color: #808080;
+  outline-color: red;
+}
